@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModuleInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ModulePN>MOD01?????00??????</ModulePN>
+  <Creator PN="01" Name="Acer-HQ1" />
+  <Type PN="" Name="Drivers" />
+  <Module PN="" Name="Realtek Audio Driver Utility Realtek Audio Console UWP" Alias="" GUID="" Serial="Realtek Audio Console UWP" Provider="Realtek" Class="Audio Driver Utility" />
+  <WOS PN="61" Sku="W10 All" CPU="X64" />
+  <Lang>All language</Lang>
+  <ModuleVersion>v1.14.223.0</ModuleVersion>
+  <DriverVersion>v1.14.223.0</DriverVersion>
+  <OptionVersion>Install_UWP.cmd</OptionVersion>
+  <ProjectCodeName>NULL</ProjectCodeName>
+  <OdmName>NBCOM</OdmName>
+  <ModuleTimeout>30</ModuleTimeout>
+  <InstallPreiod>UserAlaunch</InstallPreiod>
+  <Reboot>False</Reboot>
+  <Delete>False</Delete>
+  <ReinstallProcessList>
+    <Process Country="" OS-Language="" OS-Sku="" Check="" Timeout="0" RetCode="-" Params="" Exec="%RELATIVE_PATH%\Install_UWP.cmd" Order="00" Period="" />
+  </ReinstallProcessList>
+  <AutoRun>True</AutoRun>
+  <InstallPath />
+  <Description>RtkUWP_1.14.223.0</Description>
+  <ProcessList>
+    <Process Country="" OS-Language="" OS-Sku="" Check="False" Timeout="30" RetCode="-" Params="" Exec="%RELATIVE_PATH%\Install_UWP.cmd" Order="00" Period="" />
+  </ProcessList>
+  <RegItemList />
+  <ModuleProperty>RCD,STCD,RSCD</ModuleProperty>
+  <HWIDs>MUST;HDAUDIO\FUNC_01&amp;VEN_10EC&amp;DEV_0295&amp;SUBSYS_10251455</HWIDs>
+  <AutoCheckHWID>True</AutoCheckHWID>
+  <CheckRemove>True</CheckRemove>
+  <MVPKernelVersion>2.0.6.4</MVPKernelVersion>
+  <MVPUIVersion>2.0.8.1</MVPUIVersion>
+  <LOB>Notebook</LOB>
+</ModuleInfo>
